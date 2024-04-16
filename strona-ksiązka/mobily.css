@@ -1,0 +1,99 @@
+@media screen  and  (min-width: 768px) and (max-width: 1050px) {
+
+    .boks_oferta {
+        width: 43.3%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .boks_oferta:nth-of-type(2n) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:768px) {
+   #menu {
+    padding: 0;
+    height: 180px;
+    margin-top: -145px;
+    transition: 2s;
+   }
+   #menu:hover {
+    margin: 0;
+   }
+   #menu ul {
+    width: 100%;
+   }
+   #menu ul li {
+    width: 100%;
+    float: none; 
+    padding: 5px 0;
+   }
+   .pokaz_menu {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: beige;
+    display: block;
+   }
+    #top_strony {
+    height: 600px;
+    background-image: url(obrazki/jedzenie.jpg);
+   } 
+   #top_strony h1 {
+    font-size: 2,5em;
+    margin-top: 25%;
+   }
+   #top_strony h2 {
+    font-size: 1.5em;
+    line-height: 30px;
+   }
+   #top_strony p {
+    margin-top: 35%;
+   }
+   #top_strony p a {
+    padding: 20px 60px;
+   }
+    .naglowek {
+        line-height: 45px;
+    }
+    .opis {
+        line-height: 25px;
+    }
+    .boks_oferta {
+        width: 80%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .dietetyk_personalne {
+        padding: 1%;
+    }
+    
+    .osiagniecia, .dietetyk_personalne {
+        width: 96%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .img_certyfikat {
+        display: block;
+        width: 40%;
+        float: none;
+        margin: 0 auto;
+    }
+    .okienko_formularz h3 {
+        text-align: center;
+    }
+    .okienko_formularz input {
+        width: 94%;
+        padding: 3%;
+        margin-right: 0;
+        margin-bottom: 3%;
+    }
+    .okienko_formularz textarea {
+        width: 93%;
+        padding: 3%;
+    }
+    #kon_stopka {
+        padding: 3% 0;
+    }
+}
